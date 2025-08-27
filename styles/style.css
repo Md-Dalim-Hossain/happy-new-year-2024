@@ -244,6 +244,10 @@ footer{
     background-color: #070211;
     padding: 120px 40px;
 }
+footer>hr{
+    margin: 20px 0px;
+    opacity: 0.1;
+}
 .footer-content{
     color: #ffffff;
     display: flex;
@@ -263,4 +267,21 @@ footer{
 }
 .footer-contact-icon > img {
     width: 24px;
+}
+.footer-icon{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icon > img{
+    width: 54px;
+}
+.footer-reserved{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-reserved > p{
+    color: #ffffff;
 }
